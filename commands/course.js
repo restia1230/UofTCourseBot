@@ -31,7 +31,7 @@ exports.run = async (client, message, args, ops) => {
     if(course.response[0].exclusions != null){
         exclusion = replace1(course.response[0].exclusions);
     }
-    if(course.response[0].breadth != null){
+    if(course.response[0].arts_and_science_breadth != null){
         breadth = replace1(course.response[0].arts_and_science_breadth);
     }
     var clink = null;
