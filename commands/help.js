@@ -14,8 +14,16 @@ module.exports.run = async (client, message, args) => {
             "(i.e. ?course imm429, ?course imm)\n"+
             "**?exam**: Display exam information of the first result from a course search based on the inputted course code\n"+
             "(i.e. ?exam imm429, ?exam imm)\n"+
+            "**?food**: Display search result of inputted food\n"+
+            "(i.e. ?food coffee)\n"+
+            "**?service**: Display search result of inputted service\n"+
+            "(i.e. ?service sports)\n"+
+            "**?building**: Display building information of inputted buildling code\n"+
+            "(i.e. ?building MS)\n"+
             "\n"+
             "\n" }
         )
+        .setTimestamp()
+        .setFooter("List created at", profilepic);
         message.channel.send({embed:embed1}).catch(console.error);
 }

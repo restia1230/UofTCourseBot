@@ -32,7 +32,7 @@ exports.run = async (client, message, args, ops) => {
         exclusion = replace1(course.response[0].exclusions);
     }
     if(course.response[0].breadth != null){
-        prereq = replace1(course.response[0].breadth);
+        breadth = replace1(course.response[0].arts_and_science_breadth);
     }
     var clink = null;
     if(course.response[0].campus == 'St. George'){
@@ -63,7 +63,7 @@ exports.run = async (client, message, args, ops) => {
         {
             name:`--`,
             value: `**Term**: ${course.response[0].term}`  + "\n" +
-            `**Breadth**: ${course.response[0].arts_and_science_breadth}`
+            `**Breadth**: ${breadth}`
         }
         ],
         timestamp: new Date(),
