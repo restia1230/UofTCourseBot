@@ -1,12 +1,12 @@
 {
-  "name": "discord-bot",
+  "name": "UofTCourseBot",
   "version": "1.0.0",
-  "description": "Discord bot for SitePoint",
+  "description": "Discord bot for UofT Courses",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michiel Mulders",
+  "author": "Eric Lin",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
