@@ -14,7 +14,6 @@ module.exports = (client, message) => {
 
 
   // Reaction to messages without prefix
-  if (message.content.indexOf(client.config.prefix) !== 0) return;
 
   // Our standard argument/command name definition.
   const args = message.content.slice(client.config.prefix.length).trim().split(/ +/g);
@@ -22,6 +21,7 @@ module.exports = (client, message) => {
 
 
   
+  if (message.content.indexOf(client.config.prefix) !== 0) return;
   const cmd = client.commands.get(command);
 
 
