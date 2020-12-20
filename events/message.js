@@ -33,4 +33,5 @@ module.exports = (client, message) => {
 
   // Run the command
   cmd.run(client, message, args, ops);
+  console.log("ran");
 };
