@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) => {
             "(i.e. ?service sports)\n"+
             "**?building**: Display building information of inputted buildling code\n"+
             "(i.e. ?building MS)\n"+
-            "**link**: Display a list of useful links\n"+
+            "**?link**: Display a list of useful links\n"+
             "\n"+
             "\n" }
         )
