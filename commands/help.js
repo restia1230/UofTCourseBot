@@ -21,6 +21,7 @@ module.exports.run = async (client, message, args) => {
             "**?building**: Display building information of inputted buildling code\n"+
             "(i.e. ?building MS)\n"+
             "**?link**: Display a list of useful links\n"+
+            "[Bot Invite Link](https://discord.com/api/oauth2/authorize?client_id=734110992593715291&permissions=66583360&scope=bot)\n" +
             "\n"+
             "\n" }
         )
