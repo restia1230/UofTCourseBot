@@ -1,6 +1,6 @@
 # UofT Help Bot
 
-[Add UofTCourseBot to your server](https://discord.com/api/oauth2/authorize?client_id=734110992593715291&permissions=523328&scope=bot)
+[Add UofTHelpBot to your server](https://discord.com/api/oauth2/authorize?client_id=734110992593715291&permissions=523328&scope=bot)
 
 Discord bot using Node.js & Nikel API (https://docs.nikel.ml/showcase/) to allow users to search up information regarding courses, exam schedules, and more.
 
